@@ -12,9 +12,9 @@ do
 
 {
     
-       height = get_int();
+       height = get_int();      
     
-    if (height < 2 || height >28)
+    if (height < 2 || height >28)       //if the user has entered the correct input
     
     printf("you number needs to be no smaller then 0 and no greater then 28 you have put %i!\n",height);      
 }
@@ -23,27 +23,28 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
   
   
      {
-       for (n = 0; n < height; n++)  //run the loops n times
-       
-       {
-           for(int i = 0; i < height-n-1; i++) //spaces n times
-          
-           
-           printf(" ");
-       }
-       
-       
-       {
-           for(int k = 0; k < n; k++) //# n times
-           
-           printf("#");
-       }
+         for (int i = 0; i < height; i++)
          
-         
-         printf("\n");
-        
-    }
+         {
+             for (int k = 0; k < i; k++)
+             {
+             printf(" ");
+             {
+             
+             for  (int h = 0; h < k; h++)
+             
+            {
+                printf("#");
+                
+                printf("\n");
+                
+            }
+         }
+       
 }
      
 
-    
+}
+}
+}
+
