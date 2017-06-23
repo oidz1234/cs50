@@ -31,8 +31,11 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
            
            printf(" ");
        }
+       
+       
        {
            for(int k = 0; k < n; k++) //# n times
+           
            printf("#");
        }
          
