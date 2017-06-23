@@ -15,10 +15,10 @@ do
     
     if (height < 2 || height >28)
     
-    printf("you number needs to be >=2 you have put %i",height);    //why is this not printing at the correct time ?   
+    printf("you number needs to be >=2 you have put %i",height);      
 }
 
-while (height < 2 || height >28);
+while (height < 2 || height >28);  //rerun get int until user gives a vaild number
 
     
 
