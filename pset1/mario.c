@@ -23,20 +23,24 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
   
   
      {
-         for (int i = 0; i < height; i++)
+        // for (int i = 0; i < height; i++)
          
          {
-             for (int k = 0; k < i; k++)
+             for (int k = 0; k < height; k++)
              {
              printf(" ");
+             
              {
+             
              
              for  (int h = 0; h < k; h++)
              
             {
                 printf("#");
-                
-                printf("\n");
+            }
+                {
+                    printf("\n");
+                }
                 
             }
          }
@@ -46,5 +50,5 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
 
 }
 }
-}
+
 
