@@ -19,13 +19,10 @@ do
     printf("you number needs to be no smaller then 0 and no greater then 28 you have put %i!\n",height);      
 }
 
-while (height < 2 || height >28);  //rerun get int until user gives a vaild number
+    while (height < 2 || height >28);  //rerun get int until user gives a vaild number
   
   
-     
-        // for (int i = 0; i < height; i++)
          
-         {
              for (int k = 0; k < height; k++)
              {
              printf(" ");
@@ -41,11 +38,11 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
                 {
                     printf("\n");
                 }
-                
-              }
+           
+             }  
             }
-          }
-        }
+           }
+          
       
 
 
