@@ -12,7 +12,11 @@ int main(void)
  
  int Minutes;
  
-do
+
+/* do the following code and if the user has not entered
+   a number above 0 then promt them again */
+
+do              
 {
     
     printf("how many minuites was your shower ?!");
