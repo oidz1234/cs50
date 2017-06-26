@@ -29,9 +29,9 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
          for(i = 0; i <= height; i++) {
           
           
-             for (n = 0; n <= (height-i); n++) {
+             for (n = 0; n < (height-i); n++) {
              
-                printf("a");
+                printf(" ");
                 
              }
                 
