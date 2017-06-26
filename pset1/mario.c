@@ -20,13 +20,14 @@ do {
     if (height < 2 || height >28)       //if the user has entered the correct input
     
     printf("you number needs to be no smaller then 0 and no greater then 28 you have put %i!\n",height);      
+  
    }
 
 while (height < 2 || height >28);  //rerun get int until user gives a vaild number
   
   
         
-         for(i = 0; i <= height; i++) {
+         for (i = 0; i <= height; i++) {
           
           
              for (n = 0; n < (height-i); n++) {
@@ -36,9 +37,9 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
              }
                 
          
+              
+              
               {
-              
-              
                 for (h = 0; h < i; h++) {
              
              
@@ -47,23 +48,21 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
                 }
              {
                     printf("\n");
-            
-            
-            
+             }
+              }
+         }
+}
+
+             
                 
              
-               
-             }
-                }
-             }
 
-}
+
             
            
 
 
           
       
-
 
 
