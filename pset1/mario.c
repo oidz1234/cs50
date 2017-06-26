@@ -5,6 +5,7 @@ int n;
 int height;
 int i;
 int h;
+int g;
 
 
 
@@ -27,7 +28,7 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
   
   
         
-         for (i = 0; i <= height; i++) {
+         for (i = 1; i <= height; i++) {
           
           
              for (n = 0; n < (height-i); n++) {
@@ -35,23 +36,20 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
                 printf(" ");
                 
              }
-                
-         
+    
               
-              
-              {
                 for (h = 0; h < i; h++) {
              
              
                     printf("#");
-                   
-                }
-             {
-                    printf("\n");
-             }
-              }
+               
+                    }
+                    {
+                        printf("\n");
+                    }
          }
 }
+
 
              
                 
