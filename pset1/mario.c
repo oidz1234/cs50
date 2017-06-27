@@ -45,6 +45,12 @@ while (height < 2 || height >28);  //rerun get int until user gives a vaild numb
                
                     }
                     {
+                        printf(" ");
+                    }
+                    for (int q=0; q < i; q++) {
+                        printf("#");
+                    }
+                    {
                         printf("\n");
                     }
          }
