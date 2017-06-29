@@ -24,7 +24,7 @@ do {
   
    }
 
-while (height < 2 || height >28);  //rerun get int until user gives a vaild number
+while (height <= 2 || height >=28);  //rerun get int until user gives a vaild number
   
   
         
