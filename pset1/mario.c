@@ -1,3 +1,11 @@
+/*
+ *This program prints out a pyrmaid
+ *based on the user input
+ *like the ones in mario levels before the flag
+ *hense the name.
+ */
+
+
 #include <stdio.h>
 #include <cs50.h>
 
