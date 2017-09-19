@@ -18,22 +18,21 @@ int main(void)
 
 
 
-	int c;			/* digit position */
+
+	int c =0; /*the digit position */
+
 	long n = credit;
 
-	while (n != 0) {
-		n /= 10;
-		c++;
-	
+while (n != 0); {
+
+
 		printf("credit is %lli\n", n);
+	n /= 10;
+	c++;
 
-long number_array[c];
 
-c = 0;
-n = credit;
 
-printf("array test print %lli\n", number_array[c]);
-
+}
 
 	}
-}
+
