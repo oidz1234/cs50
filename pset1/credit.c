@@ -2,6 +2,7 @@
 
 long credit = 0;
 int digit;
+int count;
 
 
 int main(void)
@@ -18,24 +19,41 @@ int main(void)
 
 	while (credit > 0) {
 
-
-
-if (digit % 2 == 0) {
-
-	int added_value = (digit * 2);
-	printf("the value of the added digits is %d\n", added_value);
-	
-
-	printf("credit is %lli\n", credit);
-
+	count++;
+	printf("DEBUG: %d\n", count);	
 
 		int digit = credit % 10;
 
 		credit /= 10;
 	printf("the digit is %d\n", digit);
+       	printf("credit is %lli\n", credit);
+
+					
+		if (count > 2); {  //reset the count to 0
+		count = 0;
+	printf("count loop %d\n", count);
+}
+
 
 }
 
+if (digit % 2 == 0) {
+
+	int added_value = digit * 2;
+	printf("the value of the added digits is %d\n", added_value);
+	
+
+	printf("credit is %lli\n", credit);
+
 }
-}
+
+
+
+
+			}
+
+		
+
+	
+
 
