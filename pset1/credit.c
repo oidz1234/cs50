@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 long credit = 0;
-
+int digit;
 
 
 int main(void)
@@ -16,30 +16,32 @@ int main(void)
 
 	printf("you have entered %lli\n", credit);
 
-while (credit > 0) {
+	while (credit > 0) {
 
-int digit = credit % 10;
+		int digit = credit % 10;
 
-credit /= 10;
-
-for (int count = 0; ; count++) {
-
-if (count % 2 == 0) {
-
-digit * 2;
-
+		credit /= 10;
 printf("the digit is %d\n", digit);
+
+}
+
+if (digit % 2 == 0) {
+
+	int added_value = digit * 2;
+	printf("the value of the added digits is %d\n", added_value);
+	
+
 printf("credit is %lli\n", credit);
 
-
-
-
 }
 
-}
 
-	}
 
-}
+
+			}
+
+		
+
+	
 
 
