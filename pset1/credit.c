@@ -17,11 +17,10 @@ int main(void)
 	printf("you have entered %lli\n", credit);
 
 while (credit > 0) {
-int value;
 
 int digit = credit % 10;
 
-value /= 10;
+credit /= 10;
 
 printf("the digit is %d\n", digit);
 printf("credit is %lli\n", credit);
