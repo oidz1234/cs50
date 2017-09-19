@@ -24,9 +24,8 @@ long n = credit;
 	n /= 10;
 	c++;
 
-
+//git test
 printf("credit is %lli\n",  n);
 
 }
 }
-
