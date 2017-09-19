@@ -35,8 +35,13 @@ printf("DEBUG: %d\n", count);
 
 					
 		if (count ==  2) {  //reset the count to 0
-		count = 0;
+
+		
+		int added_value = (digit * 2);
+		
+count = 0;
 	printf("count loop %d\n", count);
+	printf("thew sum of the digit * 2 = %d\n", added_value);	
 }
 
 
