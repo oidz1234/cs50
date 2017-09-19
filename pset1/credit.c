@@ -22,15 +22,24 @@ int digit = credit % 10;
 
 credit /= 10;
 
+for (int count = 0; ; count++) {
+
+if (count % 2 == 0) {
+
+digit * 2;
+
 printf("the digit is %d\n", digit);
 printf("credit is %lli\n", credit);
 
 
 
 
-
+}
 
 }
 
 	}
+
+}
+
 
