@@ -16,19 +16,18 @@ int main(void)
 
 	printf("you have entered %lli\n", credit);
 
+while (credit > 0) {
+int value;
+
+int digit = credit % 10;
+
+value /= 10;
+
+printf("the digit is %d\n", digit);
+printf("credit is %lli\n", credit);
 
 
 
-	int c =0; /*the digit position */
-
-	long n = credit;
-
-while (n != 0); {
-
-
-		printf("credit is %lli\n", n);
-	n /= 10;
-	c++;
 
 
 
