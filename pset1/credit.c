@@ -24,8 +24,16 @@ int main(void)
 	while (n != 0) {
 		n /= 10;
 		c++;
-
+	
 		printf("credit is %lli\n", n);
+
+long number_array[c];
+
+c = 0;
+n = credit;
+
+printf("array test print %lli\n", number_array[c]);
+
 
 	}
 }
