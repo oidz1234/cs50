@@ -4,7 +4,8 @@ long credit = 0;
 
 
 
-int main(void) {
+int main(void)
+{
 
 
 	printf("please enter your card number\n");
@@ -17,15 +18,14 @@ int main(void) {
 
 
 
-int c; /* digit position */
-long n = credit;
+	int c;			/* digit position */
+	long n = credit;
 
-	while(n != 0) {
-	n /= 10;
-	c++;
+	while (n != 0) {
+		n /= 10;
+		c++;
 
-//git test
-printf("credit is %lli\n",  n);
+		printf("credit is %lli\n", n);
 
-}
+	}
 }
