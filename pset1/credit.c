@@ -4,7 +4,7 @@ long credit = 0;
 int digit;
 int count = 0;
 int sum_mutiplyed = 0;
-
+int added_digit = 0;
 
 int main(void)
 {
@@ -38,34 +38,27 @@ int main(void)
 
 		
 		int added_value = (digit * 2);
-printf("if this is greater then 9 the while loop shoild happen %d\n", added_value);			
+
+
 	while(added_value > 9) {
 		int added_digit = added_value % 10;
 		added_value /=10;
-printf("does this say 1 ? %d\n", added_value);
 
-printf("THIS SHOULD DISPLAY THE ADDED_DIGIT SPLIT: %d\n", added_digit);
+printf("INSIDE WHILE ADDED DIGIT%d\n", added_digit);
+
+	
+
 }
 
-//need to split up the number.
- /*	
 	
-		int sum_mutiplyed = added_value + added_value +
+		int sum_mutiplyed = added_value + added_digit + sum_mutiplyed;
+	printf("addedvalue = %d\n", added_value);
+	printf("addeddigit = %d\n", added_digit);
 	
-
-			if (sum_mutiplyed != added_value) {
-
+	printf("sum_mutiplyed %d\n", sum_mutiplyed);
 					
-*/
-				
-printf("the sum mutiplyed is %d\n", sum_mutiplyed);
+count = 0;
 
-
-		count = 0;
-
-
-	printf("count loop %d\n", count);
-	printf("thew sum of the digit * 2 = %d\n", added_value);	
 }
 
 }
