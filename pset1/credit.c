@@ -3,6 +3,7 @@
 long credit = 0;
 int digit;
 int count = 0;
+int sum_mutiplyed = 0;
 
 
 int main(void)
@@ -25,7 +26,6 @@ int main(void)
 
 	while (credit > 0) { 
 	count++;
-printf("DEBUG: %d\n", count);
 
 		int digit = credit % 10;
 
@@ -38,34 +38,23 @@ printf("DEBUG: %d\n", count);
 
 		
 		int added_value = (digit * 2);
-		
-count = 0;
+	
+
+			if (sum_mutiplyed != added_value) {
+
+				
+
+				
+printf("the sum mutiplyed is %d\n", sum_mutiplyed);
+
+
+		count = 0;
+
+
 	printf("count loop %d\n", count);
 	printf("thew sum of the digit * 2 = %d\n", added_value);	
 }
 
-
 }
-
-/*
-
-if (digit % 2 == 0) {
-
-	int added_value = digit * 2;
-	printf("the value of the added digits is %d\n", added_value);
-	
-
-	printf("credit is %lli\n", credit);
-
 }
-
-*/
-
-
-			}
-
-		
-
-	
-
 
