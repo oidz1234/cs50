@@ -97,18 +97,18 @@ printf("final number is %d\n", final_number);
 int ends_in_zero = final_number % 10;
 printf("ends in zero %d\n", ends_in_zero); 
 
-if (ends_in_zero != 0) {
+if (ends_in_zero != 0);
 printf("INVALID\n");
-}
 
- if (initial_credit / 100000000000 == 34 || 37) {
+
+ if (initial_credit / 100000000000 == 34 || 37); 
 printf("initial_credit AMEX INITIAL CREDIT%lli\n", initial_credit);
 printf("AMEX\n");
-}
- if (initial_credit / 100000000000 == 51 || 52 || 53 || 54 || 55) {
+
+ if (initial_credit / 100000000000 == 51 || 52 || 53 || 54 || 55); 
 printf("MASTERCARD\n");
 printf("initial_credit  MASTERCARD INITIAL CREDIT)%lli\n", initial_credit);
-}
+
 }
 
 
