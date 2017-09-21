@@ -100,8 +100,11 @@ printf("ends in zero %d\n", ends_in_zero);
 
 int amex_credit = initial_credit /  10000000000000; 
 int mc_credit = initial_credit / 100000000000000;
+int visa_credit13 = initial_credit / 1000000000000;
+int visa_credit16 = initial_credit / 1000000000000000;
 printf("amex credit = %d\n", amex_credit);
 printf("mc credit = %d\n", mc_credit);
+printf("visa13 = %d visa 16 = %d\n", visa_credit13, visa_credit16);
 
 if (ends_in_zero != 0) {
 	printf("INVALID\n");
@@ -116,8 +119,10 @@ else if (mc_credit == 51 || mc_credit == 52 || mc_credit == 53 || mc_credit == 5
 printf("MASTERCARD\n");
 printf("MC DEBUGCREDIT@MC%d\n",mc_credit);
 }
+
+ 
 else {
-printf("not an amex, mastercard or visa");
+printf("not an amex, mastercard or visa\n");
 }
 
 }
