@@ -106,13 +106,13 @@ printf("mc credit = %d\n", mc_credit);
 if (ends_in_zero != 0) {
 	printf("INVALID\n");
 }
-else  if (amex_credit == 34 || 37 ) {
+else  if (amex_credit == 34 || amex_credit == 37 ) {
 printf("MCDEBUB@AMEX%d\n",mc_credit); 
 printf("AMEX\n");
 
 }
 
-else if (mc_credit == 51 || 52 || 53 || 54 || 55) {
+else if (mc_credit == 51 || mc_credit == 52 || mc_credit == 53 || mc_credit == 54 || mc_credit == 55) {
 printf("MASTERCARD\n");
 printf("MC DEBUGCREDIT@MC%d\n",mc_credit);
 }
