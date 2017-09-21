@@ -5,7 +5,8 @@ int digit;
 int count = 0;
 int sum_mutiplyed;
 int added_digit;
-
+int not_mutiplied;
+int all_not_mutiplied_added;
 
 int main(void) {
 
@@ -27,7 +28,7 @@ int main(void) {
 	while (credit > 0) {   //when there is still stuff to be caluclated
 	count++;
 
-		int digit = credit % 10;  //splits the number into digits
+		 digit = credit % 10;  //splits the number into digits
 
 		credit /= 10;
 	printf("the digit is %d\n", digit);
@@ -54,11 +55,16 @@ while(added_value > 9) {
 		 added_digit = added_value % 10;
 		added_value /=10;
 
-printf("INSIDE WHILE ADDED DIGIT%d\n", added_digit);
 
 	
 
 }
+/*
+ * calcualted the value of
+ * everything added, I could
+ * not figure out a way to 
+ * do this without it adding itself again
+ */
 
 	
 		int sum_mutiplyed = added_value + added_digit + sum_mutiplyed;
@@ -70,9 +76,16 @@ printf("INSIDE WHILE ADDED DIGIT%d\n", added_digit);
 count = 0;
 } 
 
-else if (count == 1) { 
-printf("THECOUNTIS1yay");
+else if (count == 1 ) { 
 
+printf("BEFORE LOOP not_mutiplied %d\n", not_mutiplied);
+printf("BEFORE LOOP digit %d\n", digit);
+printf("BEFORE LOOP all_not_mutipled_added %d\n", all_not_mutiplied_added);
+ not_mutiplied = digit;
+ all_not_mutiplied_added = all_not_mutiplied_added + not_mutiplied;
+printf("the digit is %d\n", digit);
+printf("not_mutiplied is %d\n", not_mutiplied);
+printf("all not mutiplied is %d\n", all_not_mutiplied_added);
 }
 
 
