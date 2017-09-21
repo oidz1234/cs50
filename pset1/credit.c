@@ -24,24 +24,33 @@ int main(void) {
  * it does this recusivly
 */
 
-	while (credit > 0) { 
+	while (credit > 0) {   //when there is still stuff to be caluclated
 	count++;
 
-		int digit = credit % 10;
+		int digit = credit % 10;  //splits the number into digits
 
 		credit /= 10;
 	printf("the digit is %d\n", digit);
        	printf("credit is %lli\n", credit);
 
 					
-		if (count ==  2) {  //reset the count to 0
+		if (count ==  2) {  //need to preform operations on every other digit
 
 		
-		int added_value = (digit * 2);
+		int added_value = (digit * 2); //needed in the calcualtion
 
 
 
-	while(added_value > 9) {
+
+/*
+ * this splits the digits further
+ * if the value of the digit * 2 
+ * is over 9. Needed to preform the
+ * calculation
+ */
+	
+
+while(added_value > 9) {   
 		 added_digit = added_value % 10;
 		added_value /=10;
 
@@ -59,8 +68,13 @@ printf("INSIDE WHILE ADDED DIGIT%d\n", added_digit);
 	printf("sum_mutiplyed %d\n", sum_mutiplyed);
 					
 count = 0;
+} 
+
+else if (count == 1) { 
+printf("THECOUNTIS1yay");
 
 }
+
 
 }
 }
