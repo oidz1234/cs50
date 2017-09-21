@@ -8,7 +8,6 @@ int added_digit;
 int not_mutiplied;
 int all_not_mutiplied_added;
 int sum_mutiplied;
-
 int main(void) {
 
 
@@ -16,8 +15,10 @@ int main(void) {
 
 
 	scanf("%lli", &credit);
-
-
+	
+	long initial_credit = credit;
+	printf("FIRST INITIAL CREDIt %lli\n", initial_credit);
+	
 	printf("you have entered %lli\n", credit);
 
 
@@ -96,6 +97,18 @@ printf("final number is %d\n", final_number);
 int ends_in_zero = final_number % 10;
 printf("ends in zero %d\n", ends_in_zero); 
 
-
+if (ends_in_zero != 0) {
+printf("INVALID\n");
 }
+
+ if (initial_credit / 100000000000 == 34 || 37) {
+printf("initial_credit AMEX INITIAL CREDIT%lli\n", initial_credit);
+printf("AMEX\n");
+}
+ if (initial_credit / 100000000000 == 51 || 52 || 53 || 54 || 55) {
+printf("MASTERCARD\n");
+printf("initial_credit  MASTERCARD INITIAL CREDIT)%lli\n", initial_credit);
+}
+}
+
 
