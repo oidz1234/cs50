@@ -108,6 +108,7 @@ printf("visa13 = %d visa 16 = %d\n", visa_credit13, visa_credit16);
 
 if (ends_in_zero != 0) {
 	printf("INVALID\n");
+	printf("INVALID 0 %d\n", ends_in_zero);
 }
 else  if (amex_credit == 34 || amex_credit == 37 ) {
 printf("MCDEBUB@AMEX%d\n",mc_credit); 
@@ -120,7 +121,12 @@ printf("MASTERCARD\n");
 printf("MC DEBUGCREDIT@MC%d\n",mc_credit);
 }
 
- 
+else if (visa_credit13 == 4) {
+printf("VISA\n");
+}
+else if (visa_credit16 == 4) {
+printf("VISA\n");
+} 
 else {
 printf("not an amex, mastercard or visa\n");
 }
