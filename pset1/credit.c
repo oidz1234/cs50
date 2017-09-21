@@ -90,9 +90,12 @@ printf("all not mutiplied is %d\n", all_not_mutiplied_added);
 
 
 }
-printf("all not mutipled and sum is %d %d\n", all_not_mutiplied_added, sum_mutiplied);
 int final_number = all_not_mutiplied_added + sum_mutiplied;
 printf("final number is %d\n", final_number);
+
+int ends_in_zero = final_number % 10;
+printf("ends in zero %d\n", ends_in_zero); 
+
 
 }
 
