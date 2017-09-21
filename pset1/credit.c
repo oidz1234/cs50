@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 //global variables ftw
-/
+
 long credit = 0;
 int digit;
 int count = 0;
