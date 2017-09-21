@@ -22,7 +22,7 @@ int main(void) {
 	printf("please enter your card number\n");
 
 
-	scanf("%lli", &credit);
+	scanf("%li", &credit);
 	
 	long initial_credit = credit;
 
@@ -130,6 +130,8 @@ if (ends_in_zero != 0) {
 	printf("VISA\n");
 
 } 
+
+return 0;
 
 }
 
