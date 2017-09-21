@@ -3,10 +3,11 @@
 long credit = 0;
 int digit;
 int count = 0;
-int sum_mutiplyed;
+int sum_mutiplied;
 int added_digit;
 int not_mutiplied;
 int all_not_mutiplied_added;
+int sum_mutiplied;
 
 int main(void) {
 
@@ -67,28 +68,31 @@ while(added_value > 9) {
  */
 
 	
-		int sum_mutiplyed = added_value + added_digit + sum_mutiplyed;
+		 sum_mutiplied = added_value + added_digit + sum_mutiplied;
 	printf("addedvalue = %d\n", added_value);
 	printf("addeddigit = %d\n", added_digit);
 
-	printf("sum_mutiplyed %d\n", sum_mutiplyed);
+	printf("sum_mmutiplied %d\n", sum_mutiplied);
 					
 count = 0;
 } 
 
-else if (count == 1 ) { 
+else if (count == 1 ) {  //add the digits that where not mutipled
 
-printf("BEFORE LOOP not_mutiplied %d\n", not_mutiplied);
-printf("BEFORE LOOP digit %d\n", digit);
-printf("BEFORE LOOP all_not_mutipled_added %d\n", all_not_mutiplied_added);
  not_mutiplied = digit;
  all_not_mutiplied_added = all_not_mutiplied_added + not_mutiplied;
-printf("the digit is %d\n", digit);
-printf("not_mutiplied is %d\n", not_mutiplied);
+
+
 printf("all not mutiplied is %d\n", all_not_mutiplied_added);
 }
 
+ 
+
 
 }
+printf("all not mutipled and sum is %d %d\n", all_not_mutiplied_added, sum_mutiplied);
+int final_number = all_not_mutiplied_added + sum_mutiplied;
+printf("final number is %d\n", final_number);
+
 }
 
