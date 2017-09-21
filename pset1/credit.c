@@ -3,11 +3,11 @@
 long credit = 0;
 int digit;
 int count = 0;
-int sum_mutiplyed = 0;
-int added_digit = 0;
+int sum_mutiplyed;
+int added_digit;
 
-int main(void)
-{
+
+int main(void) {
 
 
 	printf("please enter your card number\n");
@@ -40,8 +40,9 @@ int main(void)
 		int added_value = (digit * 2);
 
 
+
 	while(added_value > 9) {
-		int added_digit = added_value % 10;
+		 added_digit = added_value % 10;
 		added_value /=10;
 
 printf("INSIDE WHILE ADDED DIGIT%d\n", added_digit);
@@ -54,7 +55,7 @@ printf("INSIDE WHILE ADDED DIGIT%d\n", added_digit);
 		int sum_mutiplyed = added_value + added_digit + sum_mutiplyed;
 	printf("addedvalue = %d\n", added_value);
 	printf("addeddigit = %d\n", added_digit);
-	
+
 	printf("sum_mutiplyed %d\n", sum_mutiplyed);
 					
 count = 0;
